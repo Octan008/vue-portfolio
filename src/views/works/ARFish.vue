@@ -2,14 +2,13 @@
     <v-container>
         <v-layout align-center column justify-center>
 
-            <h1 class="Display-3 font-weight-medium my-3 text-center">Slack勤怠システム</h1>
-            <a href="https://github.com/Octan008/AttendCheckWithSlack" target="_blank">https://github.com/Octan008/AttendCheckWithSlack</a>
-            <h4 class="font-weight-light mb-3">受託開発の従事先で開発した, Slackコマンドで打刻する勤怠システムとその管理webサイト。Slack認証でアカウントに紐づいたセッション管理ができる。</h4>
-
-            <img width="width" :height="height" src="@/assets/works/django.png">
-            <img width="width" :height="height" src="@/assets/works/attend.png">
+            <h1 class="Display-3 font-weight-medium my-3 text-center">ARFish</h1>
+            <h4 class="font-weight-light mb-3">個人開発。魚の自律遊泳プログラミングをARアプリケーションとして作成した。</h4>
            
-
+            <a href="hhttps://github.com/Octan008/ARFish" target="_blank">https://github.com/Octan008/ARFish</a>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/jzqLz71CpGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <img width="width" :height="height" src="@/assets/works/arfish.png">
+            
             <!-- <h1 class="Display-3 font-weight-medium mt-3">Description</h1>
             <h4 class="font-weight-light md-mx-12">I create a VTuber engine that reflects the three-axis rotation of the
                 face in real time to a 3DCG scene by combining my path tracing engine and some image processing methods.

@@ -98,9 +98,15 @@ export default {
         },
         {
           title: "ARFish",
-          image: "boids.png",
+          image: "arfish2.png",
           desc: "魚の自律遊泳プログラミングをARアプリケーションとして作成した。",
-          link: "BoidsMeshAnimator",
+          link: "ARFish",
+        },
+        {
+          title: "AR年賀状",
+          image: "shogi.png",
+          desc: "年賀状の模様をマーカーとしてARで「どうぶつしょうぎ」が遊べるUnityアプリケーション。",
+          link: "ARNengajo",
         },
         {
           title: "WifiMonitor",
@@ -112,7 +118,13 @@ export default {
           title: "Slack勤怠システム",
           image: "attend.png",
           desc: "受託開発の従事先で開発した, Slackコマンドで打刻する勤怠システムとその管理webサイト。Slack認証でアカウントに紐づいたセッション管理ができる。",
-          link: "WifiMonitor",
+          link: "SlackAttend",
+        },
+        {
+          title: "ChatAgent",
+          image: "attend.png",
+          desc: "受託開発の従事先で開発した。外部に建てられたサイトにアカウントを登録すると Slackチームに入らなくとも SlackBot を介して許可された Slack チームで発言できる。",
+          link: "ChatAgent",
         },
       //   {
       //     title: "Realtime Realistic VTuber engine",

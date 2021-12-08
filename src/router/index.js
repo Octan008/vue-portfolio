@@ -18,6 +18,15 @@ export default new VueRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ '../views/Works.vue')
     },
+
+    {
+      path: '/projectionmapping',
+      name: 'ProjectionMapping',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ '../views/Works_PJ.vue')
+    },
     
     {
       path: '/Vtuber',
@@ -35,6 +44,7 @@ export default new VueRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ '../views/works/Portrait_A.vue')
     },
+    
     {
       path: '/PerspectiveFish',
       name: 'PerspectiveFish',
@@ -52,6 +62,22 @@ export default new VueRouter({
       component: () => import(/* webpackChunkName: "about" */ '../views/works/BoidsMeshAnimator.vue')
     },
     {
+      path: '/ARFish',
+      name: 'ARFish',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ '../views/works/ARFish.vue')
+    },
+    {
+      path: '/ARNengajo',
+      name: 'ARNengajo',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ '../views/works/ARNengajo.vue')
+    },
+    {
       path: '/WifiMonitor',
       name: 'WifiMonitor',
       // route level code-splitting
@@ -60,38 +86,22 @@ export default new VueRouter({
       component: () => import(/* webpackChunkName: "about" */ '../views/works/WifiMonitor.vue')
     },
     {
-      path: '/PathEngine',
-      name: 'PathEngine',
+      path: '/SlackAttend',
+      name: 'SlackAttend',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ '../views/works/PathEngine.vue')
+      component: () => import(/* webpackChunkName: "about" */ '../views/works/SlackAttend.vue')
     },
     {
-      path: '/ARcity',
-      name: 'ARcity',
+      path: '/ChatAgent',
+      name: 'ChatAgent',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ '../views/works/ARcity.vue')
+      component: () => import(/* webpackChunkName: "about" */ '../views/works/ChatAgent.vue')
     },
-    {
-      path: '/ARmodeling',
-      name: 'ARmodeling',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ '../views/works/ARmodeling.vue')
-    },
-    {
-      path: '/ARsakura',
-      name: 'ARsakura',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ '../views/works/ARsakura.vue')
-    }
-  
+ 
   ]
 })
   

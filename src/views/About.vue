@@ -42,24 +42,24 @@
           <v-layout row class="title font-weight-light" align-baseline>
             <div class="title mx-3 font-weight-light">C++</div>
             <div class="subtitle-2 ml-5 font-weight-light">
-              Vulkan, OpenGL, CUDA, GLSL, OpenCV
+              研究にて使用
             </div>
           </v-layout>
           <v-layout row class="title font-weight-light" align-baseline>
             <div class="title mx-3 font-weight-light">Unity C#</div>
             <div class="subtitle-2 ml-5 font-weight-light">
-              ARFoundation, VR
+              インターンシップ、個人開発で使用
             </div>
           </v-layout>
           <v-layout row class="title font-weight-light" align-baseline>
             <div class="title mx-3 font-weight-light">Python</div>
-            <div class="subtitle-2 ml-5 font-weight-light">Keras</div>
+            
           </v-layout>
           <v-layout row class="title font-weight-light" align-baseline>
-            <div class="title mx-3 font-weight-light">Maya, Blender</div>
+            <div class="title mx-3 font-weight-light">PHP</div>
           </v-layout>
           <v-layout row class="title font-weight-light" align-baseline>
-            <div class="title mx-3 font-weight-light">Vue.js</div>
+            <div class="title mx-3 font-weight-light">HTML/CSS, Javascript, Vue.js</div>
           </v-layout>
         </v-layout>
       </v-container>
@@ -94,8 +94,21 @@
 
     <v-container>
       <h2 class="display-1 font-weight-medium">Internship</h2>
+        <v-container>
+        <v-layout align-left>Oct. 2021 - Current</v-layout>
+        <p class="font-weight-light">
+          <a
+            href="https://ambr.co.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >ambr</a
+          >
+          <br />Part-time job as BizDev
+        </p>
+      
+      </v-container>
       <v-container>
-        <v-layout align-left>Jul. 2021 - Oct. 2021</v-layout>
+        <v-layout align-left>Jul. 2021 - Aug. 2021</v-layout>
         <p class="font-weight-light">
           <a
             href="https://www.team-lab.com/"
@@ -107,32 +120,40 @@
         </p>
       
       </v-container>
+      <v-container>
+        <v-layout align-left>Sep. 2021</v-layout>
+        <p class="font-weight-light">
+          <a
+            href="https://www.ntt-east.co.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >NTT 東日本</a
+          >
+          <br />DX/Security Engineer
+        </p>
+      
+      </v-container>
     </v-container>
 
-    <!-- <v-container>
+    <v-container>
       <h2 class="display-1 font-weight-medium">Publication</h2>
      
       <v-container>
-        <v-layout align-left class="headline font-weight-medium"
+        <!-- <v-layout align-left class="headline font-weight-medium"
           >Domestic conf.</v-layout
-        >
+        > -->
         <v-container class="title font-weight-medium">
-          Poster
+          Full Paper
           <p class="subtitle-1 font-weight-light mt-2 mb-auto">
-            <b class="font-weight-bold">深水健太郎</b>, 宮下令央, 石川正俊:
-            ダイナミックプロジェクションマッピングを用いた動物体への視点依存映像の投影,
-            インタラクション2020 (東京, 2020.3.9)／予稿集, 1P-70
-            <b class="yellow--text">★</b>
-            <b class="font-weight-bold">インタラクティブ発表賞(PC推薦)</b>
-          </p>
-          <p class="subtitle-1 font-weight-light">
-            <b class="font-weight-bold">Kentaro Fukamizu</b>, Ryuichi Sakamoto,
-            Masaaki Kondo: Generation of High resolution 3D model from natural
-            language by Generative Adversarial Network, MIRU2019 (Osaka, 2019.7)
+            <b class="font-weight-bold">髙橋 初来</b>, 金井 崇:
+            Projective Dynamics におけるスモールステップ法の計算量削減,
+            画像電子学誌 第50巻 第4号
+            <!-- <b class="yellow--text">★</b> -->
+            <!-- <b class="font-weight-bold">インタラクティブ発表賞(PC推薦)</b> -->
           </p>
         </v-container>
       </v-container>
-    </v-container> -->
+    </v-container>
   </div>
 </template>
 

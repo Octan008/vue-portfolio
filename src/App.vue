@@ -47,6 +47,12 @@ import Header from './components/Header.vue'
             path: '/works',
             external: false
           },
+          // {
+          //   title: 'ProjectionMapping',
+          //   icon: 'account_circle',
+          //   path: '/projectionmapping',
+          //   external: false
+          // }
           
           
         ],

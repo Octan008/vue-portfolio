@@ -9,6 +9,7 @@
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
 
+            <a href = "https://qiita.com/juniorht48/items/14b66f533dd6fdad81e8">https://qiita.com/juniorht48/items/14b66f533dd6fdad81e8</a>
             <!-- <h1 class="Display-3 font-weight-medium mt-3">Description</h1>
             <h4 class="font-weight-light md-mx-12">I create a VTuber engine that reflects the three-axis rotation of the
                 face in real time to a 3DCG scene by combining my path tracing engine and some image processing methods.
