@@ -136,7 +136,7 @@
     </v-container>
 
     <v-container>
-      <h2 class="display-1 font-weight-medium">Publication</h2>
+      <h2 class="display-1 font-weight-medium">Publication/Awards</h2>
      
       <v-container>
         <!-- <v-layout align-left class="headline font-weight-medium"
@@ -148,6 +148,32 @@
             <b class="font-weight-bold">髙橋 初来</b>, 金井 崇:
             Projective Dynamics におけるスモールステップ法の計算量削減,
             画像電子学誌 第50巻 第4号
+            <!-- <b class="yellow--text">★</b> -->
+            <!-- <b class="font-weight-bold">インタラクティブ発表賞(PC推薦)</b> -->
+          </p>
+        </v-container>
+
+      <v-container class="title font-weight-medium">
+          Digital Art Award
+          <p class="subtitle-1 font-weight-light mt-2 mb-auto">
+            <b class="font-weight-bold">
+            <a
+            href="https://octan008.github.io/portrait_a/#/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              肖像A
+              </a
+          >
+              </b>
+               : 
+            <a
+            href="https://campusgenius.jp/news/cgc27/632/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            第27回学生CGコンテスト アート部門 ノミネート</a
+          >
             <!-- <b class="yellow--text">★</b> -->
             <!-- <b class="font-weight-bold">インタラクティブ発表賞(PC推薦)</b> -->
           </p>
