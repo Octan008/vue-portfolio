@@ -120,7 +120,7 @@
         </p>
       
       </v-container>
-      <v-container>
+      <!-- <v-container>
         <v-layout align-left>Sep. 2021</v-layout>
         <p class="font-weight-light">
           <a
@@ -132,7 +132,7 @@
           <br />DX/Security Engineer
         </p>
       
-      </v-container>
+      </v-container> -->
     </v-container>
 
     <v-container>

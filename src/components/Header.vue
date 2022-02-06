@@ -4,7 +4,7 @@
        <v-avatar class="mr-2">
          <v-img :src="require('../assets/logo.png')" />
        </v-avatar>
-       Hatsuki Takahashi
+       Octa Hatsuki / Hatsuki Takahashi
      </v-toolbar-title>
      <v-spacer></v-spacer>
 

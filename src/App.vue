@@ -18,7 +18,7 @@
     </v-content>
     <v-footer app dark color="#00331b">
       <v-flex text-center>
-        <h4 class="font-weight-light">&copy; 2021 - Hatsuki Takahashi</h4>
+        <h4 class="font-weight-light">&copy; 2021 - Octa Hatsuki / Hatsuki Takahashi</h4>
       </v-flex>
     </v-footer>
   </v-app>
