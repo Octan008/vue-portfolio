@@ -4,16 +4,19 @@
 
             <h1 class="Display-3 font-weight-medium my-3 text-center">PerspectiveFish</h1>
             <h4 class="font-weight-light mb-3">teamLab サマーインターンにて開発</h4>
-            <p width="width" >  
-                鑑賞者の位置から足元の池を覗き込んだ場合の透視投影映像を描画する。平面的なプロジェクションマッピングの中で下方の空間の奥行きを感じることができる作品となっている。
+            <p width="width" >
+                teamLab サマーインターンにて開発した Unityアプリケーション。インタラクティブなプロジェクションマッピングのための作品。
+                光源が鑑賞者の立ち位置に追従する空間で、オブジェクトの影だけを描画する作品。
+                鑑賞者の移動に伴う影の変化からオブジェクトの気配を感じることができる。
             </p>
-             <a href="https://github.com/Octan008/PerspectiveFish" target="_blank">https://github.com/Octan008/PerspectiveFish</a>
+            <img width="width" :height="height" src="@/assets/works/sign.jpg">
+    
+             <!-- <a href="https://github.com/Octan008/PerspectiveFish" target="_blank">https://github.com/Octan008/PerspectiveFish</a>
             <div class="g-slide">
             <iframe src="https://docs.google.com/presentation/d/1ifd7ZAgUcXSrwuHdxg-NlUq753FjLLA4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="284" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/MyqQ6DpkhqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/zTa0WW-kkWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             <!-- <h1 class="Display-3 font-weight-medium mt-3">Description</h1>
+            </div> -->
+
+            <!-- <h1 class="Display-3 font-weight-medium mt-3">Description</h1>
             <h4 class="font-weight-light md-mx-12">I create a VTuber engine that reflects the three-axis rotation of the
                 face in real time to a 3DCG scene by combining my path tracing engine and some image processing methods.
                 As a future work, I intend to implement skinning so as to reflect information on facial expressions.<br>

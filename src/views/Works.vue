@@ -1,8 +1,14 @@
 <template>
   <v-row fluid no-gutters>
-    <v-flex v-for="item in items_int" :key="item.title" xs12 sm6 md3>
+    <v-flex v-for="item in items_ext" :key="item.title" xs12 sm6 md3>
       <v-hover>
-        <v-card tile slot-scope="{ hover }" :to="item.link">
+        <v-card
+          tile
+          slot-scope="{ hover }"
+          :href="item.link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <v-img
             :src="require('@/assets/works/' + item.image)"
             aspect-ratio="1.0"
@@ -29,15 +35,9 @@
         </v-card>
       </v-hover>
     </v-flex>
-    <v-flex v-for="item in items_ext" :key="item.title" xs12 sm6 md3>
+        <v-flex v-for="item in items_int" :key="item.title" xs12 sm6 md3>
       <v-hover>
-        <v-card
-          tile
-          slot-scope="{ hover }"
-          :href="item.link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <v-card tile slot-scope="{ hover }" :to="item.link">
           <v-img
             :src="require('@/assets/works/' + item.image)"
             aspect-ratio="1.0"
@@ -88,7 +88,7 @@ export default {
           title: "Sign",
           image: "sign.jpg",
           desc: "teamLab サマーインターンにて開発した Unityアプリケーション。インタラクティブなプロジェクションマッピングのための作品。",
-          link: "PerspectiveFish",
+          link: "sign",
         },
         {
           title: "BoidsMeshAnimator",
@@ -120,12 +120,12 @@ export default {
           desc: "受託開発の従事先で開発した, Slackコマンドで打刻する勤怠システムとその管理webサイト。Slack認証でアカウントに紐づいたセッション管理ができる。",
           link: "SlackAttend",
         },
-        {
-          title: "ChatAgent",
-          image: "attend.png",
-          desc: "受託開発の従事先で開発した。外部に建てられたサイトにアカウントを登録すると Slackチームに入らなくとも SlackBot を介して許可された Slack チームで発言できる。",
-          link: "ChatAgent",
-        },
+        // {
+        //   title: "ChatAgent",
+        //   image: "attend.png",
+        //   desc: "受託開発の従事先で開発した。外部に建てられたサイトにアカウントを登録すると Slackチームに入らなくとも SlackBot を介して許可された Slack チームで発言できる。",
+        //   link: "ChatAgent",
+        // },
       //   {
       //     title: "Realtime Realistic VTuber engine",
       //     image: "vtuber.jpg",
