@@ -6,7 +6,8 @@
             <h4 class="font-weight-light mb-3">東京大学制作展2021 Extra 『0 PUNK』にて出展 / 第27回学生CGコンテスト アート部門ノミネート</h4>
             <img width="width" :height="height" src="@/assets/works/cgc27.jpeg">
             <span class = "links">
-            <a target="_blank" href = "https://portrait-a.octan.site/#/"> 肖像A 鑑賞サイトへ </a>
+           <!--  <a target="_blank" href = "https://portrait-a.octan.site/#/"> 肖像A 鑑賞サイトへ </a>-->
+            <a target="_blank" href = "https://portrait-six.vercel.app/#/"> 肖像A 鑑賞サイトへ </a>
             </span>
            
             <!-- <iframe :width="width" :height="height" src="https://portrait-a-mov.s3.ap-northeast-1.amazonaws.com/index.html" frameborder="0"
